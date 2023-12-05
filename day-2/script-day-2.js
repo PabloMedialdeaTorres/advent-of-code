@@ -58,6 +58,10 @@ for (let game of inputDataPart2) {
 const sumAllGameIDs = possibleGames.reduce((prev, current) => prev + current)
 console.log(sumAllGameIDs)
 
+// Part 2
+
+
+
 // Advent of Code adventjs.dev
 
 const gifts = ['tren', 'oso', 'pelota']
@@ -74,4 +78,4 @@ function manufacture(gifts, materials) {
     return solutionArray;
 }
 
-// console.log(manufacture(gifts, materials))
+console.log(manufacture(gifts, materials))
